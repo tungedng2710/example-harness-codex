@@ -1,0 +1,33 @@
+{
+  "scope": "Application, tests, checks, experiment utilities, package settings, lock and frozen-artifact manifest; excludes generated evidence and prose to avoid self-reference.",
+  "sha256": "f44395852baff272d2f16c0578086f0c49c0ed67c95c9c2cb519056fef5a06e7",
+  "files": {
+    ".python-version": "fa682ae9d943f5c8076e68335c9ba3ab4d063ad035c07ac6928653dd4ac50af7",
+    "experiments/manifests.json": "35cf39d0435b505acdb0f1bbb0c86800f468a00c017e0bd754201104dc96632d",
+    "experiments/scripts/common.py": "617392bc430a8a44cf4f6db6a08b530143c11f4195b200b1ee6b98485161039b",
+    "experiments/scripts/evaluate_trial.py": "d78f2ecc2d4c5a5bd76520484fb8fdd73fc8396cdfefb444be5308b6d07283fd",
+    "experiments/scripts/prepare_trial.py": "2c9a8ff033397aa8a85153df74f85032aded971ca0ecd6c3df50d26db92e545b",
+    "experiments/scripts/summarize.py": "7a8f3d6528dc8222551a7ce4a5f593efec60ede0817c44fc386abd42466795db",
+    "pyproject.toml": "edd5d7328b1449d8671da71dcb72709bd3aac7984e155f5056386addd8e84703",
+    "scripts/check.sh": "f355b115c79c98d5efb45bd3e6f331d57e101508ecfa83c9c9a6f724ab175e84",
+    "scripts/check_architecture.py": "b83451cfa884a82140e6e8abb683499ae49949dd1cd6681054f3fb492c3589f2",
+    "scripts/smoke.py": "61c6895da2854577fb3e527b1ebb0c77a6a3f94a43a7969d151f6c4e944e8332",
+    "src/document_extraction/__init__.py": "5a1411a21eb8e5585350ef558f39d2bc2315c84ce5d963a361218af5ce03553a",
+    "src/document_extraction/api/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/api/routes.py": "6de6b630cf8cc87592ac4680dda4a9ef77de28fafa2f8cda564e884ebbf585ce",
+    "src/document_extraction/inference/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/inference/rules.py": "ecc2a0f2a86799dac8934a373e9a4012354d4453800c1621187bd7d368010801",
+    "src/document_extraction/main.py": "810c32558be054166ea4d7a2dbaec3cfd10eda9dec64065ec8e905c691153c51",
+    "src/document_extraction/schemas/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/schemas/contracts.py": "f95dd042e2d89ec9bfea5bfd0f6484871448a4fe544fe29c5b47547cafdb7ad3",
+    "src/document_extraction/services/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/services/extraction.py": "68a9de142c7b0d87f2ce84bd8327f91517dfd7f48a1af125facfa68043e58607",
+    "tests/fixtures/invoices.json": "ae5f117242d97eb35468cdf9288b58447e6029101c517d26d18a8657d62f98b9",
+    "tests/integration/test_api.py": "3ec92b285c0d1fae223bd4c93e7faaf81ea6ace61cc80a7fa06a05ad85156514",
+    "tests/integration/test_confidence.py": "75d521ad66d2949b0ee669a7fd38e2ba43716d7580dc67fcd5288b5d537ef528",
+    "tests/unit/test_architecture.py": "f563fd20a81f1fa0b5e888190bb1225abf19296ccab425ed498c195dbb74dc64",
+    "tests/unit/test_experiments.py": "c3a439e87cdea07d9886cca7de09c26518a202af3372651017a61835ce711a63",
+    "tests/unit/test_rules.py": "0ebdbe3dac42dd05fa23eb136ceba8b47e8bd8e727d84a4674854311b4dbd4f2",
+    "uv.lock": "8c4d819cc359f30013176cecd01c49ea5cdbd0679829c35f03dd64cf92c0327b"
+  }
+}

@@ -1,0 +1,10 @@
+.venv/
+.tooling/
+.tooling-packages/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+experiments/results/raw/

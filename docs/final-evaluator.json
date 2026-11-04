@@ -1,0 +1,329 @@
+{
+  "kind": "evaluator-output",
+  "candidate": "/home/tungn197/Work/harness_example",
+  "candidate_hash": "aee615abdfe69e05ec9b5871cc827b45e16cc851847ba3b9d0b2a38391ed28d8",
+  "frozen_hash": "81710ad0dce771b6fec15f7c19bd250fc979d6d507fcdaa6cab8f3b99b3f17bf",
+  "cases": [
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_health",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_fixtures_and_determinism[case0]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_fixtures_and_determinism[case1]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_fixtures_and_determinism[case2]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body0]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body1]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body2]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body3]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body4]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body5]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body6]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body7]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body8]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_invalid_requests[body9]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "integration.test_api.test_boundaries_and_malformed",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[date-2024-02-29-2024-02-29]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[date-2025-02-29-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[date-2026-13-01-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[date-\\uff12\\uff10\\uff12\\uff16-01-01-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-0-0.00]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-0001.2-1.20]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999-expected6]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total--1-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-+1-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-1e2-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-1,000-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-.5-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-1.-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-1.234-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-\\uff11\\uff12-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[total-NaN-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[currency-usd-USD]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[currency-\\xfcsd-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[currency-US-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[invoice_number-a-12-a-12]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[invoice_number-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_validation[invoice_number-INV_1-None]",
+      "passed": true
+    },
+    {
+      "category": "regression",
+      "id": "unit.test_rules.test_labels_duplicates",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_feature_scores[Invoice Number: X-1\\nDate: 2024-02-29\\nTotal: 0\\nCurrency: usd-values0]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_feature_scores[unrecognized \\U0001f642-values1]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_feature_scores[Total: invalid\\nTotal: 12.3\\nTotal: 77\\nCurrency: eu-values2]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_feature_false",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_bad_flags[true]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_bad_flags[false]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_bad_flags[0]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_bad_flags[1]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_bad_flags[None]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_bad_flags[flag5]",
+      "passed": true
+    },
+    {
+      "category": "feature",
+      "id": "test_feature.test_bad_flags[flag6]",
+      "passed": true
+    }
+  ],
+  "functional_pass": true,
+  "architecture_imports_pass": true,
+  "manual_rubric": "pending; required for trial success",
+  "expectation_met": true,
+  "commands": [
+    {
+      "command": [
+        "uv",
+        "sync",
+        "--locked",
+        "--offline",
+        "--group",
+        "dev"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "Using CPython 3.12.3 interpreter at: /usr/bin/python3.12\nCreating virtual environment at: .venv\nResolved 25 packages in 1ms\n   Building document-extraction @ file:///home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate\n      Built document-extraction @ file:///home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate\nPrepared 1 package in 399ms\nInstalled 24 packages in 10ms\n + annotated-doc==0.0.5\n + annotated-types==0.8.0\n + anyio==4.16.0\n + certifi==2026.10.23\n + click==8.5.0\n + document-extraction==0.1.0 (from file:///home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate)\n + fastapi==0.162.0\n + h11==0.16.0\n + httpcore==1.0.9\n + httpx==0.28.1\n + idna==3.20\n + iniconfig==2.3.1\n + opentelemetry-api==1.45.2\n + packaging==26.3\n + pluggy==1.7.0\n + pydantic==2.14.2\n + pydantic-core==2.50.2\n + pygments==2.21.0\n + pytest==9.2.0\n + ruff==0.17.3\n + starlette==1.10.0\n + typing-extensions==4.16.0\n + typing-inspection==0.4.4\n + uvicorn==0.54.0\n"
+    },
+    {
+      "command": [
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/.venv/bin/python",
+        "-c",
+        "import document_extraction; print(document_extraction.__file__)"
+      ],
+      "exit_code": 0,
+      "stdout": "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/src/document_extraction/__init__.py\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/.venv/bin/python",
+        "-m",
+        "pytest",
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/regression/tests",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--junitxml",
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/regression.xml",
+        "-c",
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/pyproject.toml"
+      ],
+      "exit_code": 0,
+      "stdout": "......................................                                   [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.12/site-packages/fastapi/testclient.py:1\n  /home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n38 passed, 1 warning in 1.13s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/.venv/bin/python",
+        "-m",
+        "pytest",
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/feature/tests",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "--junitxml",
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/feature.xml",
+        "-c",
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/pyproject.toml"
+      ],
+      "exit_code": 0,
+      "stdout": "...........                                                              [100%]\n=============================== warnings summary ===============================\n.venv/lib/python3.12/site-packages/fastapi/testclient.py:1\n  /home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.\n    from starlette.testclient import TestClient as TestClient  # noqa\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n11 passed, 1 warning in 0.46s\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/.venv/bin/python",
+        "/home/tungn197/Work/harness_example/scripts/check_architecture.py",
+        "--source",
+        "/home/tungn197/tmp/harness-evaluation-0ea87n1v/candidate/src/document_extraction"
+      ],
+      "exit_code": 0,
+      "stdout": "Architecture imports: pass\n",
+      "stderr": ""
+    }
+  ]
+}

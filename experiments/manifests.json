@@ -1,0 +1,43 @@
+{
+  "starter": {
+    ".gitignore": "a68ce6a0e70719723230c29362d5039b8582e0bdd92441493efe5e73e95dfdad",
+    ".python-version": "fa682ae9d943f5c8076e68335c9ba3ab4d063ad035c07ac6928653dd4ac50af7",
+    "README.md": "6e1fcde2e89a71c044fa7b5bf31a9ae8465eb6d503d23b171e0ff17ff6f5ba5c",
+    "pyproject.toml": "edd5d7328b1449d8671da71dcb72709bd3aac7984e155f5056386addd8e84703",
+    "src/document_extraction/__init__.py": "5a1411a21eb8e5585350ef558f39d2bc2315c84ce5d963a361218af5ce03553a",
+    "src/document_extraction/api/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/api/routes.py": "00a15f33d73f6446fcbddd09f08a1b0d1793ab15dbccda098e2ff9f9d7d7aaaa",
+    "src/document_extraction/inference/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/inference/rules.py": "ecc2a0f2a86799dac8934a373e9a4012354d4453800c1621187bd7d368010801",
+    "src/document_extraction/main.py": "810c32558be054166ea4d7a2dbaec3cfd10eda9dec64065ec8e905c691153c51",
+    "src/document_extraction/schemas/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/schemas/contracts.py": "60123acdfc0d126c7c3c38a84069cbaebe3949d86fc4c009e7d81fa869cc63ea",
+    "src/document_extraction/services/__init__.py": "1dd1114dfd2ccf9e7041587440801241db6ba9560efb4d2eb7ade9f7c56dfdc8",
+    "src/document_extraction/services/extraction.py": "d8b603745a7d53c877175eccb23e67130413ac3ce5f94b405a607427c1c05f82",
+    "tests/fixtures/invoices.json": "ae5f117242d97eb35468cdf9288b58447e6029101c517d26d18a8657d62f98b9",
+    "tests/integration/test_api.py": "3ec92b285c0d1fae223bd4c93e7faaf81ea6ace61cc80a7fa06a05ad85156514",
+    "tests/unit/test_rules.py": "0ebdbe3dac42dd05fa23eb136ceba8b47e8bd8e727d84a4674854311b4dbd4f2",
+    "uv.lock": "8c4d819cc359f30013176cecd01c49ea5cdbd0679829c35f03dd64cf92c0327b"
+  },
+  "overlays/B": {
+    "AGENTS.md": "30086ef59054c406317c2b57da306d578e00f98d920a35a8d057243a8df12d87",
+    "docs/architecture.md": "2f2a4b4bd5c7644b5a6bf9a325715bba83100ccdb75beea445acf64768e6c0df"
+  },
+  "overlays/C": {
+    ".agents/skills/api-review/SKILL.md": "d2a79358eb00fc578da1f9b417f7c67f59cdcf765ed40d03af16fb189a9849f6",
+    "AGENTS.md": "ebb632c2ddfebdce0b934fe12441d96618675deaf5d3ff5561f50f44a62d1c16",
+    "docs/architecture.md": "2f2a4b4bd5c7644b5a6bf9a325715bba83100ccdb75beea445acf64768e6c0df",
+    "scripts/check.sh": "f355b115c79c98d5efb45bd3e6f331d57e101508ecfa83c9c9a6f724ab175e84",
+    "scripts/check_architecture.py": "b83451cfa884a82140e6e8abb683499ae49949dd1cd6681054f3fb492c3589f2",
+    "scripts/smoke.py": "61c6895da2854577fb3e527b1ebb0c77a6a3f94a43a7969d151f6c4e944e8332"
+  },
+  "evaluator": {
+    "test_feature.py": "95693f0d330b2a69680c8a72e707f218f5b475e4c50a66615b74a8ebc18722f3"
+  },
+  "tasks/confidence.md": {
+    "confidence.md": "3bce049dc2e81e9d6f29f6124ea1e76a0f6a825569d74e3c4e890514348843ab"
+  },
+  "protocol.json": {
+    "protocol.json": "8dadcbc940dc4c8702cb4e59ea375fcc1195b21e723e62ad7286dee29927d188"
+  }
+}

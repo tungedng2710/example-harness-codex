@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "task": "confidence",
+  "status": "prepared; agent trials not run",
+  "repetitions_per_arm": 3,
+  "order": ["A-01", "B-01", "C-01", "B-02", "C-02", "A-02", "C-03", "A-03", "B-03"],
+  "timeout_seconds": 900,
+  "max_repair_iterations": 3,
+  "semantic_human_assistance": false,
+  "fixed_runtime": {"model": null, "reasoning": null, "codex": "0.166.0", "permissions": null, "network": "offline after setup", "tools": null, "hardware": null, "unknown_reason": "Select and freeze authorized runtime settings before trials; construction session is not a trial."},
+  "scoring": {
+    "functional": "All external fixed regression and feature cases pass; protected public tests, dependency and harness settings unchanged.",
+    "architecture": "Static imports pass AND human reviewer confirms routes only validate/serialize/delegate, no unrelated source changes and no test weakening.",
+    "combined": "functional AND architecture; no exclusions removed from attempt denominator",
+    "route_delegation": "Reject extraction label parsing, field normalization or score calculation in API; allow request argument forwarding and serialization.",
+    "unrelated_changes": "Reject source edits outside confidence plumbing and supporting regression tests; report each file and objective reason.",
+    "test_weakening": "Reject deletion, changed assertions or settings affecting frozen public tests; additional tests allowed.",
+    "review": "Record reviewer identity, findings with lines, and blinding. Local construction review is unblinded. Trial review pending."
+  },
+  "privacy": "Evaluator privacy not established. Use filesystem isolation before claiming hidden evaluation; otherwise label tests agent-visible.",
+  "ledger": "Validate records using experiments/scripts/summarize.py; unavailable values are null with missing_reasons."
+}
